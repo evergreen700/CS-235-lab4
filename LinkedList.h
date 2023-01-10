@@ -2,12 +2,11 @@
 #define LINKEDLIST_H
 #include <string>
 #include <set>
-#include "LinkedListInterface.h"
 
 using namespace std;
 
 template<typename T>
-class LinkedList : public LinkedListInterface<T>{
+class LinkedList<T>{
 private:
 	struct node{
 		node(T _value){
